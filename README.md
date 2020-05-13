@@ -4,7 +4,7 @@
 
 > A very simple calculator project.
 
-Topics studied on this project:
+Topics studied in this project:
 - `module` creation;
 - `service` creation;
 - `component` creation;
