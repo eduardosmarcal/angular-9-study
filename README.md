@@ -1,6 +1,4 @@
-# Angular 9 - Study
-
-### [Project 01](https://github.com/eduardosmarcal/angular-9-study/tree/Porject_01_Calculator) - Calculator
+# Project 01 - Calculator
 
 > A very simple calculator project.
 
@@ -13,22 +11,6 @@ Topics studied on this project:
 
 External libraries:
 - [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-
-### Project 02
-
-> Coming soon...
-
-### Project 03
-
-> Coming soon...
-
-### Project 04
-
-> Coming soon...
-
-### Project 05
-
-> Coming soon...
 
 ## Author
 
