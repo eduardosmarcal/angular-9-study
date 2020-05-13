@@ -8,8 +8,8 @@ Topics studied on this project:
 - `module` creation;
 - `service` creation;
 - `component` creation;
-- `unit test` creation and execution;
-- `E2E test` creation and execution.
+- `unit tests` creation and execution;
+- `E2E tests` creation and execution.
 
 External libraries:
 - [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
