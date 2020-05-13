@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <form>
+    <div class="row justify-content-center">
+      <div class="d-flex justify-content-center">
+        <div  class="bg-primary rounded kz-container">
+          <div class="d-flex mx-1 my-2">
+            <button type="button" class="btn btn-danger mx-1" (click)="clear()">C</button>
+            <input type="text" class="form-control text-right mx-1" id="display" name="display" [value]="display" readonly>
+          </div>
+          <div class="d-flex mx-1 my-2">
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn7" (click)="registerNumber('7')">7</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn8" (click)="registerNumber('8')">8</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn9" (click)="registerNumber('9')">9</button>
+            <button type="button" class="btn btn-warning mx-1 flex-fill" id="btnDivision" (click)="setOperation('/')">/</button>
+          </div>
+          <div class="d-flex mx-1 my-2">
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn4" (click)="registerNumber('4')">4</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn5" (click)="registerNumber('5')">5</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn6" (click)="registerNumber('6')">6</button>
+            <button type="button" class="btn btn-warning mx-1 flex-fill" id="btnMultiplication" (click)="setOperation('*')">*</button>
+          </div>
+          <div class="d-flex mx-1 my-2">
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn1" (click)="registerNumber('1')">1</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn2" (click)="registerNumber('2')">2</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn3" (click)="registerNumber('3')">3</button>
+            <button type="button" class="btn btn-warning mx-1 flex-fill" id="btnSubtraction" (click)="setOperation('-')">-</button>
+          </div>
+          <div class="d-flex mx-1 my-2">
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btn0" (click)="registerNumber('0')">0</button>
+            <button type="button" class="btn btn-light mx-1 flex-fill" id="btnDecimal" (click)="registerNumber('.')">.</button>
+            <button type="button" class="btn btn-success mx-1 flex-fill" id="btnCalculate" (click)="calculate()">=</button>
+            <button type="button" class="btn btn-warning mx-1 flex-fill" id="btnAddition" (click)="setOperation('+')">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
