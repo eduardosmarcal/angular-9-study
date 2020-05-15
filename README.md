@@ -14,7 +14,7 @@ Topics studied in this project:
 External libraries:
 - [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
-### [Project 02](https://github.com/eduardosmarcal/angular-9-study/tree/Porject_02_Task_Manager) - Task Manager
+### [Project 02](https://github.com/eduardosmarcal/angular-9-study/tree/Project_02_Task_Manager) - Task Manager
 
 > A very simple task manager project.
 
