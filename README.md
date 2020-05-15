@@ -53,4 +53,4 @@ Eduardo S. Marçal
 
 ## License
 
-[GNU General Public License v3.0](https://github.com/eduardosmarcal/angular-9-study/blob/Porject_01_Calculator/LICENSE)
+[Mozilla Public License 2.0](https://github.com/eduardosmarcal/angular-9-study/blob/master/LICENSE)
