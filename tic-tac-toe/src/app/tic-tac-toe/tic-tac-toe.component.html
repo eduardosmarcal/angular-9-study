@@ -1,0 +1,104 @@
+<div class="centered">
+  <h1>Tic-Tac-Toe</h1>
+
+  <!-- Start Screen -->
+  <div class="main" *ngIf="showStart">
+    <a href="#" class="button" (click)="startGame()">Start</a>
+  </div><!-- END Start Screen -->
+
+  <!-- Board -->
+  <div *ngIf="showBoard">
+    <ul>
+      <li
+        class="border-bottom border-right"
+        [ngClass]="{
+          'image-x': displayX(0, 0),
+          'image-o': displayO(0, 0),
+          'victory-color': displayVictory(0, 0)
+        }"
+        (click)="play(0, 0)"
+      ></li>
+      <li
+        class="border-bottom border-right"
+        [ngClass]="{
+          'image-x': displayX(0, 1),
+          'image-o': displayO(0, 1),
+          'victory-color': displayVictory(0, 1)
+        }"
+        (click)="play(0, 1)"
+      ></li>
+      <li
+        class="border-bottom"
+        [ngClass]="{
+          'image-x': displayX(0, 2),
+          'image-o': displayO(0, 2),
+          'victory-color': displayVictory(0, 2)
+        }"
+        (click)="play(0, 2)"
+      ></li>
+      <li
+        class="border-bottom border-right"
+        [ngClass]="{
+          'image-x': displayX(1, 0),
+          'image-o': displayO(1, 0),
+          'victory-color': displayVictory(1, 0)
+        }"
+        (click)="play(1, 0)"
+      ></li>
+      <li
+        class="border-bottom border-right"
+        [ngClass]="{
+          'image-x': displayX(1, 1),
+          'image-o': displayO(1, 1),
+          'victory-color': displayVictory(1, 1)
+        }"
+        (click)="play(1, 1)"
+      ></li>
+      <li
+        class="border-bottom"
+        [ngClass]="{
+          'image-x': displayX(1, 2),
+          'image-o': displayO(1, 2),
+          'victory-color': displayVictory(1, 2)
+        }"
+        (click)="play(1, 2)"
+      ></li>
+      <li
+        class="border-right"
+        [ngClass]="{
+          'image-x': displayX(2, 0),
+          'image-o': displayO(2, 0),
+          'victory-color': displayVictory(2, 0)
+        }"
+        (click)="play(2, 0)"
+      ></li>
+      <li
+        class="border-right"
+        [ngClass]="{
+          'image-x': displayX(2, 1),
+          'image-o': displayO(2, 1),
+          'victory-color': displayVictory(2, 1)
+        }"
+        (click)="play(2, 1)"
+      ></li>
+      <li
+        [ngClass]="{
+          'image-x': displayX(2, 2),
+          'image-o': displayO(2, 2),
+          'victory-color': displayVictory(2, 2)
+        }"
+        (click)="play(2, 2)"
+      ></li>
+    </ul>
+  </div><!-- END Board -->
+
+  <!-- Final Screen -->
+  <div *ngIf="showEnd">
+    <p *ngIf="player==2">You won!!!</p>
+    <p *ngIf="player==1">You lose!</p>
+    <p *ngIf="player==0">The game ended in a tie.</p>
+    <br />
+    <a href="#" class="button" (click)="newGame()">Play Again!</a>
+  </div><!-- END Final Screen -->
+
+</div>
