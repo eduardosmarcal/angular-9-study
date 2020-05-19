@@ -47,6 +47,7 @@ Topics studied in this project:
 - `module` creation;
 - `service` creation;
 - `component` creation;
+- `observable` creation;
 - `directive` creation;
 - `pipe` creation;
 - `unit tests` creation and execution.
@@ -55,6 +56,8 @@ External libraries:
 
 - [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 - [Font Awesome v0.6.x](https://github.com/FortAwesome/angular-fontawesome) - _Official Angular component for Font Awesome 5_
+- [jQuery v3.5.1](https://jquery.com/)
+- [RxJS v6.5.4](https://rxjs-dev.firebaseapp.com)
 
 External API:
 
