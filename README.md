@@ -18,4 +18,4 @@ Eduardo S. Marçal
 
 ## License
 
-[Mozilla Public License 2.0](https://github.com/eduardosmarcal/angular-9-study/blob/Project_02_Task_Manager/LICENSE)
+[Mozilla Public License 2.0](https://github.com/eduardosmarcal/angular-9-study/blob/Project_03_Tic-Tac-Toe/LICENSE)
