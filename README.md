@@ -39,11 +39,32 @@ Topics studied in this project:
 - `service` creation;
 - `component` creation.
 
-### Project 04
+### [Project 04](https://github.com/eduardosmarcal/angular-9-study/tree/Project_04_Currency_Converter) - Currency Converter
+
+> A very simple Currency Converter project.
+
+Topics studied in this project:
+- `module` creation;
+- `service` creation;
+- `component` creation;
+- `directive` creation;
+- `pipe` creation;
+- `unit tests` creation and execution.
+
+External libraries:
+
+- [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Font Awesome v0.6.x](https://github.com/FortAwesome/angular-fontawesome) - _Official Angular component for Font Awesome 5_
+
+Exgternal API:
+
+- [Fixer](https://fixer.io) - _FREE Version_
+
+### Project 05
 
 > Coming soon...
 
-### Project 05
+### Project 06
 
 > Coming soon...
 
