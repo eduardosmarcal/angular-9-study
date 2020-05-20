@@ -63,9 +63,19 @@ External API:
 
 - [Fixer](https://fixer.io) - _FREE Version_
 
-### Project 05
+### [Project 05](https://github.com/eduardosmarcal/angular-9-study/tree/Project_05_Dashboard) - Dashboard (Charts)
 
-> Coming soon...
+> A very simple Dashboard (with charts) project.
+
+Topics studied in this project:
+- `module` creation;
+- `service` creation;
+- `component` creation;
+- `observable` creation - manually;
+
+External API:
+
+- [Google Charts](https://developers.google.com/chart) - manually
 
 ### Project 06
 
