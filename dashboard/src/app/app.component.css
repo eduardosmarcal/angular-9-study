@@ -1,0 +1,19 @@
+header {
+  background-color: #343a40;
+  color: #f8f9fa;
+  font-family: sans-serif;
+  min-height: 4rem;
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 400;
+  margin: 0;
+}
+
+.wrapper {
+  padding-top: 2rem;
+}
