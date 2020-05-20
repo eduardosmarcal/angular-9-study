@@ -6,7 +6,7 @@ Topics studied in this project:
 - `module` creation;
 - `service` creation;
 - `component` creation;
-- `observable` creation - manually;
+- `observable` creation - manually.
 
 External API:
 
