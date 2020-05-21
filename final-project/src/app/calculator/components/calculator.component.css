@@ -1,0 +1,12 @@
+.kz-container {
+  margin-top: 10px;
+  max-width: 290px;
+}
+
+.kz-container button {
+  width: 100%;
+}
+
+.kz-container button.btn-danger {
+  width: 25%;
+}

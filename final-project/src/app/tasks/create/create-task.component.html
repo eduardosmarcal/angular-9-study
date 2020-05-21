@@ -1,0 +1,43 @@
+<h1 class="m-0 py-3">Create Task</h1>
+
+<div class="card">
+  <div class="card-body bg-light">
+    <form #taskForm="ngForm">
+      <div class="form-group">
+        <label for="name">Task</label>
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          id="name"
+          placeholder="Enter the task description"
+          minlength="3"
+          required
+          [(ngModel)]="task.name"
+          #name="ngModel"
+        >
+        <small *ngIf="name.errors && (name.dirty || name.touched)" class="form-text text-danger">
+          <span [hidden]="!name.errors.required">
+            The field Task is required.
+          </span>
+          <span [hidden]="!name.errors.minlength">
+            The field Task should contain at least 3 letters.
+          </span>
+        </small>
+      </div>
+      <div class="form-group">
+        <a [routerLink]="['/tasks']" class="btn btn-secondary mr-2">
+          <fa-icon [icon]="faChevronLeft" class="mr-1"></fa-icon> Back
+        </a>
+        <button
+          type="submit"
+          class="btn btn-success"
+          [disabled]="!taskForm.form.valid"
+          (click)="save()"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
