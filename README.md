@@ -79,7 +79,7 @@ External API:
 
 ### [Project 06](https://github.com/eduardosmarcal/angular-9-study/tree/Project_06_Final_Project) - Final Project
 
- Putting all together.
+> Putting all together.
 
 Topics studied in this project:
 - `module` creation;
